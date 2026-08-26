@@ -1,0 +1,84 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNgU+NaQqYj0pb+euPaVHTT",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ymaimunat47-lang/student-performance-analyzer-/blob/main/Student%20performance%20analyzer%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zV1I60mkHMKv",
+        "outputId": "2d64d97c-9a27-44da-b0f3-acae9304bdde"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "STUDENT PERFORMANCE ANALYZER\n",
+            "Yusuf Maimunat Omolara\n",
+            "25\n",
+            "Biology Education\n",
+            "252\n",
+            "3\n",
+            "84.0\n",
+            "90\n",
+            "76\n",
+            "True\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"STUDENT PERFORMANCE ANALYZER\")\n",
+        "print(\"Yusuf Maimunat Omolara\")\n",
+        "age=25\n",
+        "print(age)\n",
+        "print(\"Biology Education\")\n",
+        "m=86\n",
+        "p=90\n",
+        "s=76\n",
+        "total=m+p+s\n",
+        "print(total)\n",
+        "a=1\n",
+        "b=1\n",
+        "c=1\n",
+        "t=a+b+c\n",
+        "print(t)\n",
+        "average=total/t\n",
+        "print(average)\n",
+        "highestscore=90\n",
+        "print(highestscore)\n",
+        "lowestscore=76\n",
+        "print(lowestscore)\n",
+        "passed=True\n",
+        "print(passed)"
+      ]
+    }
+  ]
+}
